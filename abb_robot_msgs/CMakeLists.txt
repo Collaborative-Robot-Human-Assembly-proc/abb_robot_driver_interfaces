@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0.2)
+cmake_minimum_required(VERSION 3.9.1)
 
 ########################################################################################################################
 # Metadata
@@ -83,15 +83,4 @@ catkin_package(
   CATKIN_DEPENDS
     message_runtime
     std_msgs
-)
-
-#===========================================================
-# Install additional files
-#===========================================================
-install(
-  FILES
-    LICENSE
-    README.md
-  DESTINATION
-    ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
